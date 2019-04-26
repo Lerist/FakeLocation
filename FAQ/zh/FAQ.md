@@ -15,7 +15,7 @@
 * 若有附带订单码，请将支付详情截图邮件发送给开发者处理，或者也可以直接采用前面没有附带订单码的方法，再次提交订单给开发者审查。
 开发者邮箱：lerist.5@gmail.com
 ```
-![提交订单码页面截图](https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg)
+<img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg" width="40%" height="40%" />
 *
 **
 * 
