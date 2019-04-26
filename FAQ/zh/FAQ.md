@@ -14,9 +14,8 @@
 * 若没有附带订单码，请在专业版开通页面的支付宝续期弹框里点击"忘记备注订单码"(下图红框处)，重新提交一下订单码。订单码会自动生成，您只需粘贴支付宝订单号提交就行了（订单号在支付宝账单详情里，年份开头那串数字）。记得提交与支付金额一致的订单码
 * 若有附带订单码，请将支付详情截图邮件发送给开发者处理，或者也可以直接采用前面没有附带订单码的方法，再次提交订单给开发者审查。
 开发者邮箱：lerist.5@gmail.com
-![支付页面截图](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
-![提交订单码页面截图](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 ```
+![提交订单码页面截图](https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg)
 *
 **
 * 
