@@ -15,7 +15,7 @@
 * 若有附带订单码，请将支付详情截图邮件发送给开发者处理，或者也可以直接采用前面没有附带订单码的方法，再次提交订单给开发者审查。
 开发者邮箱：lerist.5@gmail.com
 ```
-<img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-05-54-30-945_com.eg.android.png" width="40%" height="40%" />       <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg" width="40%" height="40%" />
+<img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-05-54-30-945_com.eg.android.png" width="30%" height="30%" />       <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg" width="30%" height="30%" />
 * 
 ## 使用问题 （更新时间：2019年4月27日）
 * 1. ROOT模式下开启模拟提示错误码103
@@ -45,13 +45,16 @@ https://zhidao.baidu.com/question/1545944666186333827.html
 https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html
 * 小米手机：进入应用详情页，打开“自启动”开关，并把“省电策略”设为无限制，如下图所示
 ```
-<img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-08-17-37-981_com.miui.secur.png" width="40%" height="40%" />
+<img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-08-17-37-981_com.miui.secur.png" width="30%" height="30%" />
+
 * 5. 避免被DD检测
+
 ```
 请使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版，并且确保手机上没有其它虚拟定位软件以及XP框架
 ```
 * 6. 避免被某游戏检测
+
 ```
 建议使用设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版，并且请合理使用模拟软件，速度不要超过5，也不要长时间保持同一速度，尽量避免位置漂移。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项
 ```
-
+* 未完待续...
