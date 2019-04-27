@@ -35,13 +35,13 @@
 >
 这种情况通常是程序被系统或其它某些应用清理掉了，请尝试允许FL后台运行，以及关闭省电优化之类的设置：
 >*华为手机允许程序后台运行：
-https://zhidao.baidu.com/question/521051452342852205.html
+[https://zhidao.baidu.com/question/521051452342852205.html](https://zhidao.baidu.com/question/521051452342852205.html)
 >*华为手机忽略电池优化：
-https://zhidao.baidu.com/question/652261302590163205.html
+[https://zhidao.baidu.com/question/652261302590163205.html](https://zhidao.baidu.com/question/652261302590163205.html)
 >*Oppo 手机允许程序后台运行：
-https://zhidao.baidu.com/question/1545944666186333827.html
+[https://zhidao.baidu.com/question/1545944666186333827.html](https://zhidao.baidu.com/question/1545944666186333827.html)
 >*Vivo 手机允许程序后台运行：
-https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html
+[https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html](https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html)
 >*小米手机：进入应用详情页，打开“自启动”开关，并把“省电策略”设为无限制，如下图所示
 ><img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-08-17-37-981_com.miui.secur.png" width="30%" height="30%" />
 
