@@ -56,10 +56,13 @@
 <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-08-17-37-981_com.miui.secur.png" width="30%" height="30%" />
 
 ### 5、避免被DD检测
-请使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版，并且确保手机上没有其它虚拟定位软件以及XP框架
+* ROOT模式：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
+* NOROOT模式：可使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版。
 
-### 6、避免被某游戏检测
-* ROOT模式：在反检测页面中点击"+"按钮添加游戏，然后开启反检测即可。需确保手机上无其他虚拟定位软件及辅助软件。
+注：需确保手机上没有其它虚拟定位软件以及XP框架。
+
+### 6、避免被游戏检测
+* ROOT模式：在反检测页面中点击"+"按钮添加游戏到"检测应用"，然后开启反检测即可。需确保手机上无其他虚拟定位软件及辅助软件。
 * NOROOT模式：之前的"隐藏Fake Location"方式已经无效了，目前可以尝试把游戏安装进OurPlay等多开软件中，小米手机可使用系统自带的应用双开功能。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace
 
 注：请合理使用模拟软件，速度不要超过5，也不要长时间保持同一速度，尽量避免位置漂移。
