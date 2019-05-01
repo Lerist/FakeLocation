@@ -1,4 +1,4 @@
-# 常见问题
+# 常见问题（更新时间：2019年5月2日）
 官方下载地址：[https://www.coolapk.com/apk/com.lerist.fakelocation](https://www.coolapk.com/apk/com.lerist.fakelocation)
 ## 支付问题 （更新时间：2019年4月27日）
 ### 1、订单码说明
@@ -18,7 +18,7 @@
 <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-05-54-30-945_com.eg.android.png" width="30%" height="30%" />       <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg" width="30%" height="30%" />
 
 - - - -
-## 使用问题 （更新时间：2019年4月27日）
+## 使用问题 （更新时间：2019年5月2日）
 ### 1、ROOT模式下开启模拟提示错误码103
 
 103是系统分区空间不足了，使用RE管理器进到/system下删掉一些无用文件即可；小米可以删掉/system/data-app，魅族可以删掉/system/MzApp
@@ -59,6 +59,8 @@
 请使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版，并且确保手机上没有其它虚拟定位软件以及XP框架
 
 ### 6、避免被某游戏检测
-建议使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版，并且请合理使用模拟软件，速度不要超过5，也不要长时间保持同一速度，尽量避免位置漂移。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项
+* ROOT模式：在反检测页面中点击"+"按钮添加游戏，然后开启反检测即可。需确保手机上无其他虚拟定位软件及辅助软件。
+* NOROOT模式：之前的"隐藏Fake Location"方式已经无效了，目前可以尝试把游戏安装进OurPlay等多开软件中，小米手机可使用系统自带的应用双开功能。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace
+注：请合理使用模拟软件，速度不要超过5，也不要长时间保持同一速度，尽量避免位置漂移。
 
 ### 未完待续...
