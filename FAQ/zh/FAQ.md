@@ -35,7 +35,7 @@
 
 可以先尝试使用 Syslock 解锁分区，若 Syslock 解不了的话，可以安装 Magisk 来解锁：先下载安装 Magisk Manager，然后取消 Magisk Manager 安装选项里的"保留 AVB 2.0/dm-verity"选项再点击Magisk 后面的"安装"。
 
-若系统版本是 Android 9.0+ 的话，需将“https://raw.githubusercontent.com/topjohnwu/magisk_files/master/canary_builds/release.json” 粘贴进 Magisk Manager 设置里的自定义更新通道里，然后重新打开 Magisk Manager ，这时会提示更新，点击 Magisk Manager 后面的更新按钮，更新完成后再执行前面的安装 Magisk 操作即可。
+若系统版本是 Android 9.0+ 的话，需将“ https://raw.githubusercontent.com/topjohnwu/magisk_files/master/canary_builds/release.json ”粘贴进 Magisk Manager 设置里的自定义更新通道里，然后重新打开 Magisk Manager ，这时会提示更新，点击 Magisk Manager 后面的更新按钮，更新完成后再执行前面的安装 Magisk 操作即可。
 
 Syslock下载地址：[https://www.coolapk.com/apk/com.lerist.syslock](https://www.coolapk.com/apk/com.lerist.syslock)
 
