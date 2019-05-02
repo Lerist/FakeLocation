@@ -34,11 +34,12 @@
 ### 2、ROOT模式下开启模拟提示System分区不可写
 
 可以先尝试使用 Syslock 解锁分区，若 Syslock 解不了的话，可以安装 Magisk 来解锁：先下载安装 Magisk Manager，然后取消 Magisk Manager 安装选项里的"保留 AVB 2.0/dm-verity"选项再点击Magisk 后面的"安装"。
-若系统版本是 Android 9.0+ 的话，需将"https://raw.githubusercontent.com/topjohnwu/magisk_files/master/canary_builds/release.json"粘贴进 Magisk Manager 设置里的自定义更新通道里，然后重新打开 Magisk Manager ，这时会提示更新，点击 Magisk Manager 后面的更新按钮，更新完成后再执行前面的安装 Magisk 操作即可。
+
+若系统版本是 Android 9.0+ 的话，需将“https://raw.githubusercontent.com/topjohnwu/magisk_files/master/canary_builds/release.json”粘贴进 Magisk Manager 设置里的自定义更新通道里，然后重新打开 Magisk Manager ，这时会提示更新，点击 Magisk Manager 后面的更新按钮，更新完成后再执行前面的安装 Magisk 操作即可。
 
 ### 3、ROOT模式下开启模拟提示错误码103
 
-103是系统分区空间不足了，使用RE管理器进到/system下删掉一些无用文件即可；小米可以删掉/system/data-app，魅族可以删掉/system/MzApp
+103是系统分区空间不足了，使用RE管理器进到/system下删掉一些无用文件即可；小米可以删掉/system/data-app，魅族可以删掉/system/MzApp，其他机型可以将/system目录截图邮件发给开发者审查可删文件。开发者邮箱：lerist.5@gmail.com
 
 ### 4、ROOT模式下开启模拟提示错误码104
 
@@ -56,7 +57,7 @@
 
 请先重启手机，再进FL的设置里清理一下运行环境；若问题依旧，请参考上一条问题，把日志发给开发者分析原因
 
-### 7、程序后台运行一段时间后自动关闭（摇杆退出）
+### 7、程序后台运行一段时间后自动关闭（摇杆退出或摇杆罗盘不随手机方向旋转）
 
 这种情况通常是程序被系统或其它某些应用清理掉了，请尝试允许FL后台运行，以及关闭省电优化之类的设置：
 
