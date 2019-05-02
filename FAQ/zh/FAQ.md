@@ -37,6 +37,10 @@
 
 若系统版本是 Android 9.0+ 的话，需将“https://raw.githubusercontent.com/topjohnwu/magisk_files/master/canary_builds/release.json”粘贴进 Magisk Manager 设置里的自定义更新通道里，然后重新打开 Magisk Manager ，这时会提示更新，点击 Magisk Manager 后面的更新按钮，更新完成后再执行前面的安装 Magisk 操作即可。
 
+Syslock下载地址：[https://www.coolapk.com/apk/com.lerist.syslock](https://www.coolapk.com/apk/com.lerist.syslock)
+
+Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk](https://www.coolapk.com/apk/com.topjohnwu.magisk)
+
 ### 3、ROOT模式下开启模拟提示错误码103
 
 103是系统分区空间不足了，使用RE管理器进到/system下删掉一些无用文件即可；小米可以删掉/system/data-app，魅族可以删掉/system/MzApp，其他机型可以将/system目录截图邮件发给开发者审查可删文件。开发者邮箱：lerist.5@gmail.com
