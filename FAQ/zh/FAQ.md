@@ -43,7 +43,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 ### 3、ROOT模式下开启模拟提示错误码103
 
-103是系统分区空间不足了，使用RE管理器进到/system下删掉一些无用文件即可；小米可以删掉/system/data-app，魅族可以删掉/system/MzApp，其他机型可以将/system目录截图邮件发给开发者审查可删文件。开发者邮箱：lerist.5@gmail.com
+103是系统分区空间不足了，使用RE管理器进到/system下删掉一些无用文件即可；小米可以删掉/system/data-app，魅族可以删掉/system/MzApp，一加可以删掉/system/reserve，其他机型可以将/system目录截图邮件发给开发者审查可删文件。开发者邮箱：lerist.5@gmail.com
 
 ### 4、ROOT模式下开启模拟提示错误码104
 
