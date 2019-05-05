@@ -99,7 +99,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 ### 10、避免被游戏检测
 
 * ROOT模式：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，然后开启反检测即可。需确保手机上无其他虚拟定位软件及辅助软件。
-* NOROOT模式：之前的"隐藏Fake Location"方式已经无效了，目前可以尝试把游戏安装进Shelter等多开软件中使用，小米手机可以使用系统自带的应用双开功能。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。Shelter下载地址：https://www.coolapk.com/apk/net.typeblog.shelter
+* NOROOT模式：之前的"隐藏Fake Location"方式已经无效了，目前可以尝试把游戏安装进Shelter等多开软件中使用，小米手机可以用系统自带的应用双开功能把游戏双开后使用。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。Shelter下载地址：https://www.coolapk.com/apk/net.typeblog.shelter
 
 注：请合理使用模拟软件，速度不要超过5，也不要长时间保持同一速度，尽量避免位置漂移。
 
