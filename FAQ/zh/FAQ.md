@@ -1,4 +1,4 @@
-# 常见问题（更新时间：2019年5月7日）
+# 常见问题（更新时间：2019年5月24日）
 
 官方下载地址：[https://www.coolapk.com/apk/com.lerist.fakelocation](https://www.coolapk.com/apk/com.lerist.fakelocation)
 
@@ -25,7 +25,7 @@
 
 - - - -
 
-## 使用问题 （更新时间：2019年5月7日）
+## 使用问题 （更新时间：2019年5月24日）
 
 ### 1、使用 Magisk root 开启模拟时一直转圈
 
@@ -85,19 +85,23 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 注：“反检测应用”和“检测应用”的关系是：“反检测应用”里勾选的应用不会被“检测应用”列表里的应用检测到，千万不要搞反了，并且两者里面不能同时包含同一应用。
 
-### 8、避免被DD检测
+### 8、手机没有ROOT权限，使用ROOT模式下的功能
 
-* ROOT模式：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
-* NOROOT模式：可使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版。
+手机没有ROOT权限的话，可以在虚拟大师里使用ROOT模式，虚拟大师：https://www.coolapk.com/apk/com.vmos.app  ，安装虚拟大师后，把 Fake Location 和 需要使用Fake Location功能的应用一并安装进虚拟大师，就可以使用ROOT模式下的功能了。
+
+### 9、避免被DD检测
+
+* ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
+* NOROOT模式（手机无ROOT权限）：可使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版。
 
 注：需确保手机上没有其它虚拟定位软件以及XP框架。
 
-### 9、避免被游戏检测
+### 10、避免被游戏检测
 
-* ROOT模式：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，然后开启反检测即可。需确保手机上无其他虚拟定位软件及辅助软件。
-* NOROOT模式：之前"隐藏Fake Location"的方式已经无效了，目前可以尝试把游戏安装进Shelter中使用，如果您的手机不支持Shelter的话，可以把FL导入进OurPlay等多开软件中使用（注意导入时需要勾选"复制安装目录"选项，并且导入完成后需要卸载原FL）；如果是小米手机的话，可以直接用系统自带的应用双开功能把游戏双开后使用。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。Shelter下载地址：https://www.coolapk.com/apk/net.typeblog.shelter  ，OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace
+* ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，然后开启反检测即可；需确保手机上无其他虚拟定位软件及辅助软件。为保险起见，建议用 存储重定向 为游戏“启用存储空间隔离”，存储重定向下载地址：https://www.coolapk.com/apk/moe.shizuku.redirectstorage
+* NOROOT模式（手机无ROOT权限）：之前"隐藏Fake Location"的方式已经无效了，目前可以尝试把游戏安装进Shelter中使用，如果您的手机不支持Shelter的话，可以把FL导入进OurPlay等多开软件中使用（注意导入时需要勾选"复制安装目录"选项，并且导入完成后需要卸载原FL）；如果是小米手机的话，可以直接用系统自带的应用双开功能把游戏双开后使用。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。Shelter下载地址：https://www.coolapk.com/apk/net.typeblog.shelter  ，OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace
 
-注：请合理使用模拟软件，速度不要超过5，也不要长时间保持同一速度，尽量避免位置漂移。
+注：请合理使用模拟软件，速度不要超过10，也不要长时间保持同一速度，尽量避免位置漂移。
 
 
 ### 未完待续...
