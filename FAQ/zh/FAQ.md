@@ -1,4 +1,4 @@
-# 常见问题（更新时间：2019年5月25日）
+# 常见问题（更新时间：2019年5月29日）
 
 官方下载地址：[https://www.coolapk.com/apk/com.lerist.fakelocation](https://www.coolapk.com/apk/com.lerist.fakelocation)
 
@@ -57,7 +57,11 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 请不要在虚拟空间里安装运行，不要修改FL安装包；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可，若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（某些邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
 
-### 6、程序后台运行一段时间后自动关闭（摇杆退出或摇杆罗盘不随手机方向旋转）
+### 6、NOROOT模式下开启位置模拟后，部分APP依然显示真实位置
+
+有些APP需要在ROOT模式下才有效，比如微信；手机没有ROOT的话可以参考下面第 9 条。
+
+### 7、程序后台运行一段时间后自动关闭（摇杆退出或摇杆罗盘不随手机方向旋转）
 
 这种情况通常是程序被系统或其它某些应用清理掉了，请尝试允许FL后台运行，以及关闭省电优化之类的设置：
 
@@ -77,7 +81,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
  
 <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-08-17-37-981_com.miui.secur.png" width="30%" height="30%" />
 
-### 7、关于反检测功能的使用
+### 8、关于反检测功能的使用
 
 反检测功能需要手动设置“反检测应用”和“检测应用”
 * 反检测应用：即需要隐藏的应用，或者不想被检测到的应用；如：Fake Location。点击页面内的“反检测应用”卡片进行设置。
@@ -85,18 +89,18 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 注：“反检测应用”和“检测应用”的关系是：“反检测应用”里勾选的应用不会被“检测应用”列表里的应用检测到，千万不要搞反了，并且两者里面不能同时包含同一应用。
 
-### 8、手机没有ROOT权限，使用ROOT模式下的功能
+### 9、手机没有ROOT权限，使用ROOT模式下的功能
 
 手机没有ROOT权限的话，可以在虚拟大师里使用ROOT模式，虚拟大师：https://www.coolapk.com/apk/com.vmos.app  ，安装虚拟大师后，把 Fake Location 和 需要使用Fake Location功能的应用一并安装进虚拟大师，就可以使用ROOT模式下的功能了。
 
-### 9、避免被DD检测
+### 10、避免被DD检测
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
 * NOROOT模式（手机无ROOT权限）：可使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版。
 
 注：需确保手机上没有其它虚拟定位软件以及XP框架。
 
-### 10、避免被游戏检测
+### 11、避免被游戏检测
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，然后开启反检测即可；需确保手机上无其他虚拟定位软件及辅助软件。为保险起见，建议再用 存储重定向 为游戏“启用存储空间隔离”，存储重定向下载地址：https://www.coolapk.com/apk/moe.shizuku.redirectstorage
 * NOROOT模式（手机无ROOT权限）：之前"隐藏Fake Location"的方式已经无效了，目前可以尝试把游戏安装进Shelter中使用，如果您的手机不支持Shelter的话，可以把FL导入进OurPlay等多开软件中使用（注意导入时需要勾选"复制安装目录"选项，并且导入完成后需要卸载原FL）；如果是小米手机的话，可以直接用系统自带的应用双开功能把游戏双开后使用。还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。Shelter下载地址：https://www.coolapk.com/apk/net.typeblog.shelter  ，OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace
