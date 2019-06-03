@@ -113,8 +113,8 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 >  > 还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。
 > 
 > > Shelter下载地址：https://www.coolapk.com/apk/net.typeblog.shelter  
-> > OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace 
-> > 小隐大师下载地址：http://xiaoyin.1huanji.com
+> > OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace  
+> > 小隐大师下载地址：http://xiaoyin.1huanji.com 
 
 注：请合理使用模拟软件，速度不要超过10，也不要长时间保持同一速度，并且避免位置漂移。
 
