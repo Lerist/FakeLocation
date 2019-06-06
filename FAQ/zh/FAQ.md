@@ -1,4 +1,4 @@
-# 常见问题（更新时间：2019年6月4日）
+# 常见问题（更新时间：2019年6月7日）
 
 官方下载地址：[https://www.coolapk.com/apk/com.lerist.fakelocation](https://www.coolapk.com/apk/com.lerist.fakelocation)
 
@@ -106,7 +106,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 * NOROOT模式（手机无ROOT权限）：
 > > 1、可以把游戏安装进Shelter中使用，如果您的手机不支持Shelter的话，可以把FL导入进OurPlay或者小隐大师等多开软件中使用，导入完成后需要卸载原FL。注意：OurPlay导入时需要勾选"复制安装目录"选项，并且打开游戏前需要先删掉/sdcard/Android/data/com.excean.gspace/gameplugins文件夹下的"com.lerist.fakelocation"或"com.e9bcd2d.da2cdO4c0a"文件夹；在游戏运行期间不要进入FakeLocation的地图页面；
 > 
-> > 2、如果是小米手机的话，可以直接用系统自带的应用双开功能把游戏双开后使用；
+> > 2、如果是小米手机的话，可以直接用系统自带的应用双开功能把游戏双开后使用；【06月06日更新：该方法已对ZY游戏失效】
 > 
 > > 3、可以参考前面第 9 条，在虚拟大师中使用ROOT模式的反检测方法。
 > 
