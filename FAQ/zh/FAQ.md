@@ -102,7 +102,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 ### 11、避免被游戏检测（2019年6月4日 更新）
 
-* ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，并且打开设置里的“增强反检测”选项，然后开启反检测即可；需确保手机上无其他虚拟定位软件及辅助软件。若开启“增强反检测”后导致应用无法正常运行，可以关闭增强反检测，然后用 存储重定向 为游戏“启用存储空间隔离”，存储重定向下载地址：https://www.coolapk.com/apk/moe.shizuku.redirectstorage
+* ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，并且打开设置里的“增强反检测”选项，然后开启反检测即可；需确保Fake Location为最新版本并且手机上无其他虚拟定位软件及辅助软件。若开启“增强反检测”后导致应用无法正常运行，或提示"增强反检测未生效"，可以关闭增强反检测，然后用 存储重定向 为游戏“启用存储空间隔离”，存储重定向下载地址：https://www.coolapk.com/apk/moe.shizuku.redirectstorage
 * NOROOT模式（手机无ROOT权限）：
 > > 1、可以把FL导入进小隐大师或者OurPlay等多开软件中使用，导入完成后需要卸载原FL。注意：OurPlay导入时需要勾选"复制安装目录"选项，并且打开游戏前需要先删掉/sdcard/Android/data/com.excean.gspace/gameplugins文件夹下的"com.lerist.fakelocation"或"com.e9bcd2d.da2cdO4c0a"文件夹；在游戏运行期间不要进入FakeLocation的地图页面；
 > 
