@@ -29,7 +29,7 @@
 
 ### 1、使用 Magisk root 开启模拟时一直转圈
 
-一直转圈是在等待 Root 授权，请先不要把 Magisk 隐藏。某些手机还需保持 Magisk 在后台运行。
+一直转圈是在等待 Root 授权，请先不要在 Magisk  Hide 里勾选 Fake Location，或者暂时先在Magisk设置中关闭“Magisk Hide”选项。某些手机还需保持 Magisk 在后台运行。
 
 ### 2、ROOT模式下开启模拟提示System分区不可写
 
