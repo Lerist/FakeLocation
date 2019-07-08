@@ -1,4 +1,4 @@
-# 常见问题（更新时间：2019年6月19日）
+# 常见问题（更新时间：2019年7月9日）
 
 官方下载地址：[https://www.coolapk.com/apk/com.lerist.fakelocation](https://www.coolapk.com/apk/com.lerist.fakelocation)
 
@@ -93,28 +93,19 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 手机没有ROOT权限的话，可以在虚拟大师里使用ROOT模式，虚拟大师：https://www.coolapk.com/apk/com.vmos.app  ，安装虚拟大师后，把 Fake Location 和 需要使用Fake Location功能的应用一并安装进虚拟大师，就可以使用ROOT模式下的功能了。
 
-### 10、避免被DD检测
+### 10、避免被DD检测（2019年7月9日 更新）
+
+* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被DD检测到；安装专属包后记得卸载掉原版 Fake Location。定制专属包时需要支付一定的定制费用。
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
-* NOROOT模式（手机无ROOT权限）：可使用FL设置里的"隐藏Fake Location"功能重新安装一个随机包名的版本并卸载掉原版。
 
 注：需确保手机上没有其它虚拟定位软件以及XP框架。
 
-### 11、避免被游戏检测（2019年6月19日 更新）
+### 11、避免被游戏检测（2019年7月9日 更新）
+
+* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被游戏检测到；安装专属包后记得卸载掉原版 Fake Location。定制专属包时需要支付一定的定制费用。
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，并且打开设置里的“增强反检测”选项，然后开启反检测即可；需确保Fake Location为最新版本并且手机上无其他虚拟定位软件及辅助软件。若开启“增强反检测”后导致应用无法正常运行，或提示"增强反检测未生效"，可以关闭增强反检测，然后用 存储重定向 为游戏“启用存储空间隔离”，存储重定向下载地址：https://www.coolapk.com/apk/moe.shizuku.redirectstorage
-* NOROOT模式（手机无ROOT权限）：
-> > 1、可以把FL导入进小隐大师、VXP或者OurPlay等多开软件中使用，导入完成后需要卸载原FL。注意：OurPlay导入时需要勾选"复制安装目录"选项，并且打开游戏前需要先删掉 “/sdcard/Android/data” 和“/sdcard/Android/data/com.excean.gspace/gameplugins”文件夹下的"com.lerist.fakelocation"或"com.e9bcd2d.da2cdO4c0a"文件夹；在游戏运行期间不要进入FakeLocation的地图页面；
-> 
-> > 2、如果是小米手机的话，可以直接用系统自带的应用双开功能把游戏双开后使用；【06月06日更新：该方法已对ZY游戏失效】
-> 
-> > 3、可以参考前面第 9 条，在虚拟大师中使用ROOT模式的反检测方法。
-> 
->  > 还有一点，NOROOT模式下不要打开FL设置里的"允许搜索GPS信号"选项。
-> 
-> > 小隐大师下载地址：http://xiaoyin.1huanji.com 
-> > VXP下载地址（注：安卓7.0+上不能保存应用数据）：https://www.coolapk.com/apk/io.virtualapp.sandvxposed
-> > OurPlay下载地址：https://www.coolapk.com/apk/com.excean.gspace  
 
 注：请合理使用模拟软件，速度不要超过10，也不要长时间保持同一速度，并且避免位置漂移。
 
