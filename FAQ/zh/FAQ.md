@@ -1,6 +1,6 @@
-# 常见问题（更新时间：2019年7月9日）
+# 常见问题（更新时间：2019年11月16日）
 
-官方下载地址：[https://www.coolapk.com/apk/com.lerist.fakelocation](https://www.coolapk.com/apk/com.lerist.fakelocation)
+APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)
 
 ## 支付问题
 
@@ -51,17 +51,17 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 * 三星手机：三星官方内核和KNOX服务限制，不能关闭SELinux，目前也只有刷解除限制了的第三方ROM和内核才能使用ROOT模式
 
-* 其他机型：请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（某些邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
+* 其他机型：请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
 
 ### 5、ROOT模式下开启模拟提示“虚拟位置服务连接失败”
 
-请不要在虚拟空间里安装运行，不要修改FL安装包；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可，若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（某些邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
+请不要在虚拟空间里安装运行，不要修改FL安装包，不要使用非官方版本；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可，若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
 
 ### 6、NOROOT模式下开启位置模拟后，部分APP依然显示真实位置
 
-有些APP需要在ROOT模式下才有效，比如微信；手机没有ROOT的话可以参考下面第 9 条。
+有些APP需要在ROOT模式下才有效，比如微信等；手机没有ROOT的话可以参考下面第 9 条。
 
-### 7、程序后台运行一段时间后自动关闭（跳回真实位置、摇杆退出或摇杆罗盘不随手机方向旋转）
+### 7、程序后台运行一段时间后自动关闭、跳回真实位置、摇杆退出或摇杆罗盘不随手机方向旋转
 
 这种情况通常是程序被系统或其它某些应用清理掉了，请尝试允许FL后台运行，以及关闭省电优化之类的设置：
 
@@ -81,6 +81,8 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
  
 <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-08-17-37-981_com.miui.secur.png" width="30%" height="30%" />
 
+* 其他手机请自行百度允许程序后台运行的方法
+
 ### 8、关于反检测功能的使用
 
 反检测功能需要手动设置“反检测应用”和“检测应用”
@@ -89,9 +91,11 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 注：“反检测应用”和“检测应用”的关系是：“反检测应用”里勾选的应用不会被“检测应用”列表里的应用检测到，千万不要搞反了，并且两者里面不能同时包含同一应用。
 
-### 9、手机没有ROOT权限，使用ROOT模式下的功能
+### 9、手机没有ROOT权限，使用ROOT模式下的功能（不保证所有机型都适用）
 
-手机没有ROOT权限的话，可以在虚拟大师里使用ROOT模式，虚拟大师：https://www.coolapk.com/apk/com.vmos.app  ，安装虚拟大师后，把 Fake Location 和 需要使用Fake Location功能的应用一并安装进虚拟大师，就可以使用ROOT模式下的功能了。
+手机没有ROOT权限的话，可以尝试在虚拟大师里使用ROOT模式，虚拟大师：https://www.coolapk.com/apk/com.vmos.app  ，安装虚拟大师后，把 Fake Location 和需要使用Fake Location功能的应用一并安装进虚拟大师，就可以使用ROOT模式下的功能了。
+
+注：目前已知在虚拟大师里不能成功模拟GPS信号。
 
 ### 10、避免被DD检测（2019年7月9日 更新）
 
