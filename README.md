@@ -1,12 +1,12 @@
 # Fake Location
- [APK下载地址](https://github.com/Lerist/fakelocation.github.io/releases/) | [常见问题&使用技巧](https://github.com/Lerist/fakelocation.github.io/blob/master/FAQ/zh/FAQ.md) | [Telegram 交流群](https://t.me/fakelocation)
+ [APK下载](https://github.com/Lerist/fakelocation.github.io/releases/)  |  [常见问题&使用技巧](https://github.com/Lerist/fakelocation.github.io/blob/master/FAQ/zh/FAQ.md)  |  [Telegram 交流群](https://t.me/fakelocation)
 
 ## 简介
 这是一款为开发人员设计的位置模拟软件，其中大部分功能需要ROOT权限的支持。
 
 软件特色：
 
-• 以ROOT环境运行，模拟成功率高；当然也支持免ROOT运行
+• 以ROOT环境运行，模拟成功率高；当然也支持免ROOT运行（NOROOT模式只对极少数应用有效）
 
 • 支持 Android P/Q
 
@@ -40,4 +40,7 @@
 
 
 ## 免责声明
-本程序仅供开发人员调试使用，严禁用于违法行为，使用此程序所造成的一切后果由用户自行承担！
+**本程序仅供开发人员调试使用，严禁用于违法行为，使用此程序所造成的一切后果由用户自行承担！**
+
+## 反馈/联系开发者
+[lerist.5@gmail.com](lerist.5@gmail.com)
