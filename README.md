@@ -38,7 +38,7 @@
 
 • 支持保存当前位置，便于快速返回
 
-注：ROOT模式下的功能不保证适用于所有机型，发现问题可以通过[Issues](https://github.com/Lerist/fakelocation.github.io/issues)或[邮件](https://github.com/Lerist/fakelocation.github.io#%E5%8F%8D%E9%A6%88%E8%81%94%E7%B3%BB%E5%BC%80%E5%8F%91%E8%80%85)反馈给我
+**注：**ROOT模式下的功能不保证适用于所有机型，发现问题可以通过[Issues](https://github.com/Lerist/fakelocation.github.io/issues)或[邮件](mailto:lerist.5@gmail.com)反馈给我
 
 ## 免责声明
 本程序仅供开发人员调试使用，严禁用于**违法行为**，使用此程序所造成的一切后果由用户自行承担！
