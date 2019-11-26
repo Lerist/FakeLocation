@@ -1,4 +1,4 @@
-# 常见问题（更新时间：2019年11月16日）
+# 常见问题（更新时间：2019年11月26日）
 
 APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)
 
@@ -97,9 +97,9 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 注：目前已知在虚拟大师里不能成功模拟GPS信号。
 
-### 10、避免被DD检测（2019年7月9日 更新）
+### 10、避免被DD检测
 
-* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被DD检测到；安装专属包后记得卸载掉原版 Fake Location。定制专属包时需要支付一定的定制费用。
+* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被DD检测到；安装专属包后记得卸载掉原版 Fake Location 然后重启一下手机。定制专属包时需要支付一定的定制费用。
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
 
