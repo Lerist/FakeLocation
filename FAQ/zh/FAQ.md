@@ -1,6 +1,6 @@
 # 常见问题（更新时间：2019年11月26日）
 
-APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)
+APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)     |    [https://fir.im/fakelocation](https://fir.im/fakelocation)
 
 ## 支付问题
 
@@ -55,7 +55,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 ### 5、ROOT模式下开启模拟提示“虚拟位置服务连接失败”
 
-请不要在虚拟空间里安装运行，不要修改FL安装包，不要使用非官方版本；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可，若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
+请先确保使用的是最新版本的程序（最新版本下载地址见顶部），然后不要在虚拟空间（例如一些多开软件）里安装运行，不要修改FL安装包，不要使用非官方版本；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可；若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
 
 ### 6、NOROOT模式下开启位置模拟后，部分APP依然显示真实位置
 
@@ -105,9 +105,9 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 注：需确保手机上没有其它虚拟定位软件以及XP框架。
 
-### 11、避免被游戏检测（2019年7月9日 更新）
+### 11、避免被游戏检测
 
-* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被游戏检测到；安装专属包后记得卸载掉原版 Fake Location。定制专属包时需要支付一定的定制费用。
+* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被游戏检测到；安装专属包后记得卸载掉原版 Fake Location 然后重启一下手机。定制专属包时需要支付一定的定制费用。
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮将游戏添加到"检测应用"里，并且打开设置里的“增强反检测”选项，然后开启反检测即可；需确保Fake Location为最新版本并且手机上无其他虚拟定位软件及辅助软件。若开启“增强反检测”后导致应用无法正常运行，或提示"增强反检测未生效"，可以关闭增强反检测，然后用 存储重定向 为游戏“启用存储空间隔离”，存储重定向下载地址：https://www.coolapk.com/apk/moe.shizuku.redirectstorage
 
