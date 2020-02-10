@@ -1,4 +1,4 @@
-# 常见问题（更新时间：2019年11月26日）
+# 常见问题（更新时间：2020年02月11日）
 
 APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)     |    [https://fir.im/fakelocation](https://fir.im/fakelocation)
 
@@ -55,7 +55,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 ### 5、ROOT模式下开启模拟提示“虚拟位置服务连接失败”
 
-请先确保使用的是最新版本的程序（最新版本下载地址见顶部），然后不要在虚拟空间（例如一些多开软件）里安装运行，不要修改FL安装包，不要使用非官方版本；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可；若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
+请先确保使用的是正版且最新版本的程序（最新版本下载地址见顶部），然后不要在虚拟空间（例如一些多开软件）里安装运行，不要修改FL安装包，不要使用破解版本；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可；若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
 
 ### 6、NOROOT模式下开启位置模拟后，部分APP依然显示真实位置
 
@@ -67,18 +67,18 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 * 华为手机允许程序后台运行：
 [https://zhidao.baidu.com/question/521051452342852205.html](https://zhidao.baidu.com/question/521051452342852205.html)
- 
+
 * 华为手机忽略电池优化：
 [https://zhidao.baidu.com/question/652261302590163205.html](https://zhidao.baidu.com/question/652261302590163205.html)
- 
+
 * Oppo 手机允许程序后台运行：
 [https://zhidao.baidu.com/question/1545944666186333827.html](https://zhidao.baidu.com/question/1545944666186333827.html)
- 
+
 * Vivo 手机允许程序后台运行：
 [https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html](https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html)
- 
+
 * 小米手机：进入应用详情页，打开“自启动”开关，并把“省电策略”设为无限制，如下图所示
- 
+
 <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-08-17-37-981_com.miui.secur.png" width="30%" height="30%" />
 
 * 其他手机请自行百度允许程序后台运行的方法
@@ -99,7 +99,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 ### 10、避免被DD检测
 
-* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被DD检测到；安装专属包后记得卸载掉原版 Fake Location 然后重启一下手机。定制专属包时需要支付一定的定制费用。
+* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被DD检测到；安装专属包后记得卸载掉原版 Fake Location 然后重启一下手机。定制专属包时需要支付一定的定制费用。注：近期DD给部分账号推送了新的检测机制，NOROOT模式的方法可能无效，建议使用下方ROOT模式的方法。
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
 
