@@ -1,6 +1,6 @@
 # 常见问题（更新时间：2020年02月11日）
 
-APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)     |    [https://fir.im/fakelocation](https://fir.im/fakelocation)
+APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)     |    [http://apps.lerist.cc:81/fakelocation](http://apps.lerist.cc:81/fakelocation)
 
 ## 支付问题
 
