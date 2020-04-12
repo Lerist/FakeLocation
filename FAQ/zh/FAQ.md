@@ -1,4 +1,4 @@
-# 常见问题（更新时间：2020年02月11日）
+# 常见问题（更新时间：2020年04月12日）
 
 APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)     |    [http://apps.lerist.cc:81/fakelocation](http://apps.lerist.cc:81/fakelocation)
 
@@ -19,7 +19,7 @@ APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](ht
  * 若没有附带订单码，请在专业版开通页面的支付宝续期弹框里点击"忘记备注订单码"(下图2红框处)，重新提交一下。订单码会自动生成，您只需粘贴上支付宝订单号提交就行了（订单号是在支付宝账单详情里，年份开头那串数字）。记得提交前选择与支付金额一致的专业版套餐。
 
 * 若有附带订单码，请将支付详情截图以邮件方式发给开发者处理，或者也可以直接采用前面没有附带订单码的方法，再次提交一下订单给开发者审查。
-开发者邮箱：lerist.5@gmail.com
+  开发者邮箱：lerist.5@gmail.com
 
 <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-05-54-30-945_com.eg.android.png" width="30%" height="30%" />       <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg" width="30%" height="30%" />
 
@@ -66,16 +66,16 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 这种情况通常是程序被系统或其它某些应用清理掉了，请尝试允许FL后台运行，以及关闭省电优化之类的设置：
 
 * 华为手机允许程序后台运行：
-[https://zhidao.baidu.com/question/521051452342852205.html](https://zhidao.baidu.com/question/521051452342852205.html)
+  [https://zhidao.baidu.com/question/521051452342852205.html](https://zhidao.baidu.com/question/521051452342852205.html)
 
 * 华为手机忽略电池优化：
-[https://zhidao.baidu.com/question/652261302590163205.html](https://zhidao.baidu.com/question/652261302590163205.html)
+  [https://zhidao.baidu.com/question/652261302590163205.html](https://zhidao.baidu.com/question/652261302590163205.html)
 
 * Oppo 手机允许程序后台运行：
-[https://zhidao.baidu.com/question/1545944666186333827.html](https://zhidao.baidu.com/question/1545944666186333827.html)
+  [https://zhidao.baidu.com/question/1545944666186333827.html](https://zhidao.baidu.com/question/1545944666186333827.html)
 
 * Vivo 手机允许程序后台运行：
-[https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html](https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html)
+  [https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html](https://jingyan.baidu.com/article/046a7b3e9462f2f9c27fa9e9.html)
 
 * 小米手机：进入应用详情页，打开“自启动”开关，并把“省电策略”设为无限制，如下图所示
 
@@ -86,6 +86,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 ### 8、关于反检测功能的使用
 
 反检测功能需要手动设置“反检测应用”和“检测应用”
+
 * 反检测应用：即需要隐藏的应用，或者不想被检测到的应用；如：Fake Location。点击页面内的“反检测应用”卡片进行设置。
 * 检测应用：即会检测其他应用的应用；如：DD、一些游戏等。点击页面内的“+”按钮进行添加。
 
@@ -99,7 +100,7 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 ### 10、避免被DD检测
 
-* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被DD检测到；安装专属包后记得卸载掉原版 Fake Location 然后重启一下手机。定制专属包时需要支付一定的定制费用。注：近期DD给部分账号推送了新的检测机制，NOROOT模式的方法可能无效，建议使用下方ROOT模式的方法。
+* NOROOT模式（手机无ROOT权限）：使用FL设置里的"定制专属包"功能定制一个您自己的专属包来安装使用，就可以避免被DD检测到；安装专属包后记得卸载掉原版 Fake Location 然后重启一下手机。定制专属包时需要支付一定的定制费用。注：近期DD给部分账号推送了新的检测机制，NOROOT模式下可能无法使用，建议使用ROOT模式；或者可以尝试下载安装旧版本的DD（5.0之前的版本）。
 
 * ROOT模式（手机有ROOT权限）：在反检测页面中点击"+"按钮添加DD到"检测应用"，然后开启反检测即可。
 
