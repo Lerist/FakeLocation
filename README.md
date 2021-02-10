@@ -2,7 +2,7 @@
  [APK下载](https://github.com/Lerist/fakelocation.github.io/releases/)   |   [常见问题&使用技巧](https://github.com/Lerist/fakelocation.github.io/blob/master/FAQ/zh/FAQ.md)   |   [Telegram 交流群](https://t.me/fakelocation)
 
 ## 简介
-这是一款为开发人员设计的位置模拟软件，其中大部分功能需要ROOT权限的支持。
+这是一款帮助开发人员调试位置信息程序的模拟工具，用于实现对位置信息、WIFI信息以及设备开发环境的调试模拟。其中大部分功能需要ROOT权限的支持。
 
 软件特色：
 
