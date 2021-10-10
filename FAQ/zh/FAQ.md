@@ -1,6 +1,6 @@
 # 常见问题（更新时间：2020年06月09日）
 
-APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)     |    [http://apps.lerist.cc:81/fakelocation](http://apps.lerist.cc:81/fakelocation)
+APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](https://github.com/Lerist/fakelocation.github.io/releases/)     |    [http://lerist.net/fakelocation](http://lerist.net/fakelocation)
 
 ## 支付问题
 
@@ -10,26 +10,26 @@ APK下载地址：[https://github.com/Lerist/fakelocation.github.io/releases](ht
 
 ### 2、点击支付宝支付方式，未能成功跳转到支付页面
 
-请尝试升级支付宝客户端，或者采用手动转账方式，转账账号: lerist@163.com，转账时请记得备注上订单码。
+请尝试升级支付宝客户端，或者在支付弹窗中点击"扫码"按钮，用支付宝扫码支付。
 
 ### 3、支付宝支付完成，专业版长时间仍未开通
 
-请先确认支付时，是否有在备注栏（下图1划红线处）里附带订单码
+请先确认支付时，是否有在备注栏里附带订单码。（目前已经采用自动附带订单码方式）
 
- * 若没有附带订单码，请在专业版开通页面的支付宝续期弹框里点击"忘记备注订单码"(下图2红框处)，重新提交一下。订单码会自动生成，您只需粘贴上支付宝订单号提交就行了（订单号是在支付宝账单详情里，年份开头那串数字）。记得提交前选择与支付金额一致的专业版套餐。
+ * 若没有附带订单码，请在专业版开通页面的支付宝续期弹框里点击"提交订单"，重新提交一下。订单码会自动生成，您只需粘贴上支付宝订单号提交就行了（订单号是在支付宝账单详情里，年份开头那串数字）。记得提交前选择与支付金额一致的专业版套餐。
 
 * 若有附带订单码，请将支付详情截图以邮件方式发给开发者处理，或者也可以直接采用前面没有附带订单码的方法，再次提交一下订单给开发者审查。
   开发者邮箱：lerist.5@gmail.com
-
-<img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/Screenshot_2019-04-27-05-54-30-945_com.eg.android.png" width="30%" height="30%" />       <img src="https://raw.githubusercontent.com/Lerist/fakelocation.github.io/master/FAQ/zh/img/IMG_20190427_041839.jpg" width="30%" height="30%" />
 
 - - - -
 
 ## 使用问题 
 
-### 1、使用 Magisk root 开启模拟时一直转圈
+### 1、开启模拟时一直转圈
 
-一直转圈是在等待 Root 授权，请先不要在 Magisk  Hide 里勾选 Fake Location，或者暂时先在Magisk设置中关闭“Magisk Hide”选项。有些手机还需保持 Magisk 在后台运行。
+* 使用的 Magisk Root：一直转圈是在等待 Root 授权，请不要在 Magisk Hide 里勾选 Fake Location，或者暂时在Magisk设置中关闭“Magisk Hide”选项；有些手机还需保持 Magisk 在后台运行。
+
+* 使用的魅族 FlymeOS 自带的Root：部分机型 FlymeOS 自带的 Root 可能出现更新系统后失效的情况，需要关闭并重新启用 Root 才能恢复。
 
 ### 2、ROOT模式下开启模拟提示System分区不可写
 
@@ -55,11 +55,11 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 ### 5、ROOT模式下开启模拟提示“虚拟位置服务连接失败”
 
-请先确保使用的是正版且最新版本的程序（最新版本下载地址见本页面顶部），然后不要在虚拟空间（例如一些多开软件）里安装运行，不要修改FL安装包，不要使用破解版本；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可；若是问题依旧，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现上述错误后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
+请先确保使用的是正版且最新版本的程序（最新版本下载地址见本页面顶部），然后不要在虚拟空间（例如一些多开软件）里安装运行，不要修改FL安装包，不要使用破解版本；若是在更新版本后出现的这个问题，请先重启手机，再进FL的设置里清理一下运行环境即可；若是问题依旧，可以查看设备的SELinux是否支持关闭(SELinux状态可用镧工具箱APP查看)，若不支持关闭，则需刷第三方支持关闭SELinux的内核才能解决，若支持关闭，请打开FL设置里的"日志记录"功能，重启一下手机，再开启模拟，出现错误提示后，点击侧边栏里的"反馈"，选择邮件方式把日志文件发给开发者分析具体原因（若邮箱客户端附带不了日志文件，建议使用网易邮箱客户端发送）
 
 ### 6、NOROOT模式下开启位置模拟后，部分APP依然显示真实位置
 
-有些APP需要在ROOT模式下才有效，比如微信等；手机没有ROOT的话可以参考下面第 10 条。
+有些APP需要在ROOT模式下才有效，NOROOT模式测试无效就只能使用ROOT模式；手机没有ROOT的话可以参考下面第 10 条。
 
 ### 7、ROOT模式下开启位置模拟后，被模拟软件提示 定位失败、获取位置信息失败 之类的提示
 
@@ -91,16 +91,13 @@ Magisk Manager 下载地址：[https://www.coolapk.com/apk/com.topjohnwu.magisk]
 
 反检测功能需要手动设置“反检测应用”和“检测应用”
 
-* 反检测应用：即需要隐藏的应用，或者不想被检测到的应用；如：Fake Location。点击页面内的“反检测应用”卡片进行设置。
-* 检测应用：即会检测其他应用的应用；如：DD、一些游戏等。点击页面内的“+”按钮进行添加。
+* 反检测应用：即需要隐藏的应用，或者不想被检测到的应用；如：Fake Location、Xposed等。点击页面内的“反检测应用”卡片进行设置。
+* 检测应用：即会检测其他应用的应用。点击页面内的“+”按钮进行添加。
 
 注：“反检测应用”和“检测应用”的关系是：“反检测应用”里勾选的应用不会被“检测应用”列表里的应用检测到，千万不要搞反了，并且两者里面不能同时包含同一应用。
 
 ### 10、手机没有ROOT权限，使用ROOT模式下的功能（不保证所有机型都适用）
 
 手机没有ROOT权限的话，可以尝试在虚拟大师里使用ROOT模式，虚拟大师：https://www.coolapk.com/apk/com.vmos.app  ，安装虚拟大师后，把 Fake Location 和需要使用Fake Location功能的应用一并安装进虚拟大师，就可以使用ROOT模式下的功能了。(提示：有些APP可能不支持在虚拟大师里运行，还请自行测试)。
-
-注：目前已知在虚拟大师里不能成功模拟GPS信号。
-
 
 ### 未完待续...
