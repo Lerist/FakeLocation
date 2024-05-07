@@ -1,5 +1,5 @@
 # Fake Location
- [APK下载](https://github.com/Lerist/fakelocation.github.io/releases/)   |   [常见问题&使用技巧](https://github.com/Lerist/fakelocation.github.io/blob/master/FAQ/zh/FAQ.md)   |   [Telegram 交流群](https://t.me/fakelocation)
+ [APK下载](https://github.com/Lerist/fakelocation.github.io/releases/)   |   [常见问题&使用技巧](https://github.com/Lerist/fakelocation.github.io/blob/master/FAQ/zh/FAQ.md) 
 
 ## 简介
 这是一款帮助开发人员调试位置信息程序的模拟工具，用于实现对位置信息、WIFI信息以及设备开发环境的调试模拟。其中大部分功能需要ROOT权限的支持。
@@ -8,7 +8,7 @@
 
 • 以ROOT环境运行，模拟成功率高；当然也支持免ROOT运行（NOROOT模式只支持部分功能, 且仅对少数应用有效）
 
-• 支持 Android 5.1 - 12
+• 支持 Android 5.1 - 14
 
 • 支持以摇杆方式移动位置
 
@@ -43,8 +43,8 @@
 
 **注：** ROOT模式下的功能不保证适用于所有机型，发现问题可以通过[Issues](https://github.com/Lerist/fakelocation.github.io/issues)或[邮件](mailto:lerist.5@gmail.com)反馈给我
 
-## 免责声明
-[免责声明.md](https://github.com/Lerist/FakeLocation/blob/master/免责声明.md) 
+## 使用条款
+[使用条款.md](https://github.com/Lerist/FakeLocation/blob/master/使用条款.md) 
 
 ## 反馈/联系开发者
 [lerist.5@gmail.com](mailto:lerist.5@gmail.com)
