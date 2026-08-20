@@ -10,7 +10,7 @@
 
 • 支持NOROOT和ROOT两种运行模式
 
-• 支持 Android 5~16
+• 支持 Android 5 ~ 17
 
 • 支持以摇杆方式移动位置
 
